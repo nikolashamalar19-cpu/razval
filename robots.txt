@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikolashamalar19-cpu.github.io/razval//sitemap.xml
