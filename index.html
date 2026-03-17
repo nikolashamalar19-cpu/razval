@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Развал-Схождение</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    background-image: url("https://i.postimg.cc/4NDhj34Z/Chat-GPT-Image-17-mar-2026-g-12-16-43.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+
+  .overlay {
+    background: rgba(0,0,0,0.65);
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+
+  header { text-align: center; padding: 20px; }
+  header h1 { color: #ff6600; margin-bottom: 10px; }
+
+  nav a {
+    color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold;
+  }
+  nav a:hover { color: #ff6600; }
+
+  /* Кнопки связи в хедере */
+  .contact-btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .contact-btns a {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .call-btn { background: #ff6600; }
+  .call-btn:hover { background: #ff8533; }
+
+  .viber-btn { background: #665cac; }
+  .viber-btn:hover { background: #7a73d1; }
+
+  .tg-btn { background: #0088cc; }
+  .tg-btn:hover { background: #33a0dd; }
+
+  section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+
+  .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+  .service { background: rgba(34,34,34,0.8); padding: 20px; border-radius: 10px; }
+  .service h3 { color: #ff6600; margin-bottom: 10px; }
+
+  .contact form { display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: auto; }
+  .contact input, textarea { padding: 10px; border-radius: 5px; border: none; }
+  .contact button { background: #ff6600; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+
+  footer { text-align: center; padding: 20px; color: #aaa; }
+
+  /* Стили для карточки контактов */
+  .contact-card {
+    background: rgba(255,102,0,0.1);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  /* Анимация карточки при наведении */
+  .contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  }
+
+  /* Кнопки внутри карточки */
+  .contact-card .contact-btns a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  /* Анимация кнопок при наведении */
+  .contact-card .contact-btns a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+
+  /* Viber и Telegram кнопки */
+  .contact-card .viber-btn { background:#665cac; color:#fff; }
+  .contact-card .tg-btn { background:#0088cc; color:#fff; }
+
+  /* WhatsApp кнопка */
+  .contact-card .whatsapp-btn { background: #25D366; color: #fff; }
+
+  /* Ссылки на телефон и GPS */
+  .contact-card a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .contact-card a:hover {
+    color: #ffd480;
+  }
+</style>
+</head>
+<body>
+
+<div class="overlay">
+  <header>
+    <h1>РАЗВАЛ-СХОЖДЕНИЕ-КАСТЕР 3D-технология высокая точность, скорость, работа со всеми марками авто</h1>
+    <nav>
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+
+    <!-- Кнопки связи -->
+    <div class="contact-btns">
+      <a href="tel:+375336282080" class="call-btn">📞 Позвонить</a>
+      <a href="viber://chat?number=%2B+375336282082" class="viber-btn">📱 Viber</a>
+      <a href="https://t.me/+375336282080" class="tg-btn">✉️ Telegram</a>
+    </div>
+  </header>
+
+  <section id="services">
+    <h2>Наши услуги</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Развал-схождение </h3>
+        <p>Точная настройка углов колес по заводским параметрам для каждого авто (+CUSTOM)</p>
+      </div>
+      <div class="service">
+        <h3>Ремонт и обслуживание ходовой</h3>
+        <p>замена изношенных элементов подвески амортизаторы, рычаги, сайлентблоки, ступичные подшипники и др.узлов</p>
+      </div>
+      <div class="service">
+        <h3>Диагностика подвески </h3>
+        <p>Проверка всех элементов подвески автомобиля.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="prices">
+    <h2>Цены</h2>
+    <ul>
+      <li>Развал-схождение – от 60 рублей (кросоверы,внедорожники, AUDI, BMW, MERCEDES, адаптивная подвеска от 70 рублей) </li>
+      <li>Проверка углов установки колес –  20 рублей  </li>
+      <li>Разработка резьбовых соединений – от 10 рублей на 1 колесе</li>
+      <li>Кастомизация развал-схождения для Stance Drift Autosport обговариваеться индивидуально</li>
+      <li>Полная диагностика всей ходовой автомобиля – 30 рублей (Бесплатно если авто остаеться у нас для ремонта или регулировки сход/развала)</li>
+      <li>Работы по ремонту/востановлению элементов подвески обговариваються после диагностики</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 style="text-align:center; margin-bottom:30px;">Запись на услугу</h2>
+
+    <div class="contact-card">
+      <p><strong>Адрес:</strong><br> г. Могилев, ул. Авиаторов 16Б</p>
+
+      <p><strong>Телефон:</strong><br> 
+        <a href="tel:+375336282080">+375336282080</a>
+      </p>
+
+      <div class="contact-btns">
+        <a href="viber://chat?number=%2B375336282082" class="viber-btn">📱 Viber</a>
+        <a href="https://t.me/+375336282080" class="tg-btn">✉️ Telegram</a>
+        <a href="https://wa.me/375336282080" class="whatsapp-btn" target="_blank">💬 WhatsApp</a>
+      </div>
+
+      <p><strong>GPS:</strong><br> 
+        <a href="https://www.google.com/maps/dir/?api=1&destination=53.932088,30.261542" target="_blank">
+          53.932088, 30.261542
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Сервис Развал-Схождение
+  </footer>
+</div>
+
+</body>
+</html>
